@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Weekday from './Weekday';
+
 
 const Calendar = ({dates, days}) => {
     days = days.map((d)=> d.name);
