@@ -1,4 +1,5 @@
 import './App.css';
+import Calendar from './Calendar';
 
 export default function App() {
 
@@ -32,6 +33,8 @@ export default function App() {
   return (
     <div className="App">
       <h1>React Calendar</h1>
+      <hr />
+      <Calendar dates = { dates } days = { days }/>
     </div>
   );
 }
